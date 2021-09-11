@@ -1,0 +1,87 @@
+/*
+body{
+	margin:40px auto;
+	max-width:650px;
+	line-height:1.6;
+	font-size:18px;
+	color:#444;
+	padding:010px;
+	background-color: #FFFFFF;
+}
+
+h1,h2,h3{
+	line-height:1.2;
+}
+
+a{
+	text-decoration: none;
+	color: blue;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+*/
+body {
+  margin: 0;
+  margin-top: 0;
+}
+
+#header{
+  background-color: #FFFFFF;
+  padding: 1px;
+  border-style: none none solid none;
+  border-width: 2px;
+  border-color: #000000;
+}
+
+h1{
+  margin: 15px;
+  text-align: center;
+  font: 25px "Lato", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+#footer{
+  background-color: #303030;
+  height: 45px;
+}
+
+.window{
+  background-image: url(images/window.jpg);
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.drive{
+  background-image: url(images/drive.jfif);
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.roof{
+  background-image: url(images/roof.jfif);
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.window div, .drive div, .roof div{
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 10px;
+}
+
+h2 {
+  text-indent: 100px;
+  font: 20px "Lato", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
