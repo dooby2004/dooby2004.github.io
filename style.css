@@ -29,10 +29,12 @@ body {
 
 #header{
   background-color: #FFFFFF;
-  padding: 1px;
   border-style: none none solid none;
   border-width: 2px;
   border-color: #000000;
+  position: fixed;
+  width: 100%;
+  top: 0;
 }
 
 h1{
@@ -45,7 +47,15 @@ h1{
 
 #footer{
   background-color: #303030;
-  height: 45px;
+  padding: 5px;
+}
+
+#content{
+  margin-top: 78.6px;
+}
+
+p {
+  font: 15px "Lato", sans-serif;
 }
 
 .window{
