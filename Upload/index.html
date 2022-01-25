@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Physics H/W</title>
+  <link rel="stylesheet" href="style.css">
+  <script>
+    function changeID(el){
+      if (el.getAttribute('id') == "small"){
+        IDwas = "small";
+      }
+      if (el.getAttribute('id') == "medium"){
+        IDwas = "medium";
+      }
+      if (el.getAttribute('id') == "large"){
+        IDwas = "large";
+      }
+
+      if (IDwas == "small"){
+        el.id = "medium";
+      }
+      if (IDwas == "medium"){
+        el.id = "large";
+      }
+      if (IDwas == "large"){
+        el.id = "small";
+      }
+    }
+  </script>
+</head>
+<body>
+<img src="20220125_151452.jpg" id="small" onclick="changeID(this);"></img><br/>
+<img src="20220125_151505.jpg" id="small" onclick="changeID(this);"></img><br/>
+<img src="20220125_151508.jpg" id="small" onclick="changeID(this);"></img><br/>
+<img src="20220125_151523.jpg" id="small" onclick="changeID(this);"></img><br/>
+<img src="20220125_151526.jpg" id="small" onclick="changeID(this);"></img><br/>
+<img src="20220125_151537.jpg" id="small" onclick="changeID(this);"></img><br/>
+<img src="20220125_151541.jpg" id="small" onclick="changeID(this);"></img>
+
+</body>
+</html>
