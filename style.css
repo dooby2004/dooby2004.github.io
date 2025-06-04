@@ -35,7 +35,7 @@ h1{
 #content{
   background-color: #ad1c28;
   text-align: center;
-  margin-top: 100px;
+  margin-top: 83px;
 }
 
 h2 {
@@ -82,8 +82,17 @@ p {
   padding: 10px;
 }
 
+.middle {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .congrats, .history, .money {
   position: relative;
+  border-style: solid none solid none;
+  border-width: 2px;
+  border-color: #000000;
 }
 
 .congrats:before, .history:before, .money:before {
@@ -93,6 +102,6 @@ p {
   position: absolute;
   height: 100%;
   width: 100%;
-  background: -webkit-gradient(linear, left top, right top, color-stop(0%, #ad1c28), color-stop(30%, rgba(255, 255, 255, 0)), color-stop(70%, rgba(255, 255, 255, 0)), color-stop(100%, #ad1c28));
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%, #ad1c28), color-stop(25%, rgba(255, 255, 255, 0)), color-stop(75%, rgba(255, 255, 255, 0)), color-stop(100%, #ad1c28));
   /* Chrome,Safari4+ */
 }
