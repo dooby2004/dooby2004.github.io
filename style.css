@@ -50,7 +50,7 @@ p {
 }
 
 .congrats{
-  background-image: url(images/beans.avif);
+  background-image: url(./Images/beans.avif);
   min-height: 500px;
   background-attachment: fixed;
   background-position: center;
