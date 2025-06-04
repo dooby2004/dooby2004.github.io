@@ -4,7 +4,6 @@ body {
 }
 
 #header{
-  text-align: center;
   background-color: #FFFFFF;
   border-style: none none solid none;
   border-width: 2px;
@@ -12,7 +11,6 @@ body {
   position: fixed;
   width: 100%;
   top: 0;
-  z-index: 999;
 }
 
 h1{
@@ -26,20 +24,14 @@ h1{
 #footer{
   background-color: #303030;
   padding: 5px;
-  text-indent: 40px;
-  color: #888888;
 }
 
-
-
 #content{
-  background-color: #ad1c28;
-  text-align: center;
-  margin-top: 100px;
+  margin-top: 78.6px;
 }
 
 h2 {
-  color: white;
+  text-indent: 100px;
   font: 20px "Lato", sans-serif;
   text-transform: uppercase;
   letter-spacing: 5px;
@@ -49,8 +41,8 @@ p {
   font: 15px "Lato", sans-serif;
 }
 
-.congrats{
-  background-image: url(images/beans.avif);
+.window{
+  background-image: url(images/window.jpg);
   min-height: 500px;
   background-attachment: fixed;
   background-position: center;
@@ -58,8 +50,8 @@ p {
   background-size: cover;
 }
 
-.history{
-  background-image: url(images/Triangle.jpg);
+.drive{
+  background-image: url(images/drive.jfif);
   min-height: 500px;
   background-attachment: fixed;
   background-position: center;
@@ -67,32 +59,15 @@ p {
   background-size: cover;
 }
 
-.money{
-  background-image: url(images/Money.jpg);
+.roof{
+  background-image: url(images/roof.jfif);
   min-height: 500px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
-.congrats div, .history div, .money div{
-  color: rgb(255, 255, 255);
-  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
-  letter-spacing: 1px;
+.window div, .drive div, .roof div{
+  background-color: rgba(255, 255, 255, 0.8);
   padding: 10px;
-}
-
-.congrats, .history, .money {
-  position: relative;
-}
-
-.congrats:before, .history:before, .money:before {
-  content: "";
-  top: 0;
-  left: 0;
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  background: -webkit-gradient(linear, left top, right top, color-stop(0%, #ad1c28), color-stop(30%, rgba(255, 255, 255, 0)), color-stop(70%, rgba(255, 255, 255, 0)), color-stop(100%, #ad1c28));
-  /* Chrome,Safari4+ */
 }
