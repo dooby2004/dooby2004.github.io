@@ -59,7 +59,7 @@ p {
 }
 
 .history{
-  background-image: url(images/Triangle.jpg);
+  background-image: url(./Images/Triangle.jpg);
   min-height: 500px;
   background-attachment: fixed;
   background-position: center;
@@ -68,7 +68,7 @@ p {
 }
 
 .money{
-  background-image: url(images/Money.jpg);
+  background-image: url(./Images/Money.jpg);
   min-height: 500px;
   background-attachment: fixed;
   background-position: center;
